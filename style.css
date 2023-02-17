@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #FFCD9E;
+    font-size: 18px;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width:55%;
+    height: 600px;
+    display:flex;  
+    justify-content: center;
+    flex-direction: column;
+    gap: 6%;
+}
+
+.icon{
+    float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+*{
+    font-family: Inter;
+}
+
+h1{
+    font:700;
+    color:#282828;
+    font-size: 36px;
+    line-height: 150%;
+    height: 108px;
+    width: 562px;
+}
+
+.tagline{
+    width: 495px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #484848;
+}
+
+.box{
+    color: #888888;
+    background: #FFFFFF;
+    border: 4px solid #282828;
+    border-radius: 8px;
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    width: 344px;
+    height: 61px;
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+}
+    
+.spam{
+    width: 344px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    padding-left: 28px;
+}
+
+.reg{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    width: 216px;
+    height: 64px;
+    background-color: #282828;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.enter{
+    display: flex;
+    gap: 2%;
+}
+
+
+.fig{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+
+}
+
+footer{
+    height: 40vh;
+    background-color: #282828;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.bottom{
+    height: 40vh;
+    display: flex;
+    gap: 52%;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    height:60%;
+    display:flex;  
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+    gap:15px;
+}
+
+
+
